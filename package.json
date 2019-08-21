@@ -38,8 +38,8 @@
   "scripts": {
     "start": "react-scripts start",
     "dev": "npm-run-all -p start-js",
-    "build-js": "react-scripts build",
-    "build": "npm-run-all build-css build-js",
+    "build": "react-scripts build",
+    "build-css": "npm-run-all build-css build-js",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "exec": "cross-env CI=true react-scripts test --env=jsdom --json",
     "eject": "react-scripts eject",
